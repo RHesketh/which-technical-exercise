@@ -20,7 +20,7 @@ class LocationsClient
 
   def request(x, y) # rubocop:disable Naming/UncommunicativeMethodParamName
     url = url_for(x, y)
-    @http_client.get(url)
+    http_client.get(url)
   end
 
   def url_for(x, y) # rubocop:disable Naming/UncommunicativeMethodParamName
@@ -28,4 +28,6 @@ class LocationsClient
   end
 
   class IncorrectSubmissionError < StandardError; end
+
+  attr_reader :http_client
 end

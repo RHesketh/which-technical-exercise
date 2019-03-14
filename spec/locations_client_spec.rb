@@ -1,4 +1,4 @@
-require './lib/locations_client.rb'
+require './lib/locations_client'
 
 RSpec.describe LocationsClient, type: :model do
   describe '#submit' do

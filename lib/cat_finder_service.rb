@@ -1,6 +1,6 @@
-require './lib/directions_client.rb'
-require './lib/suspect_tracker.rb'
-require './lib/locations_client.rb'
+require './lib/directions_client'
+require './lib/suspect_tracker'
+require './lib/locations_client'
 
 # Locates missing kittens
 class CatFinderService

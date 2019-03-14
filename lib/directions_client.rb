@@ -23,7 +23,7 @@ class DirectionsClient
   end
 
   def request
-    @http_client.get(url)
+    http_client.get(url)
   end
 
   def url
@@ -31,4 +31,6 @@ class DirectionsClient
   end
 
   class NoDirectionsError < StandardError; end
+
+  attr_reader :http_client
 end

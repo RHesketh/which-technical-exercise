@@ -1,4 +1,4 @@
-require './lib/cat_finder_service.rb'
+require './lib/cat_finder_service'
 
 RSpec.describe CatFinderService, type: :model do
   describe '#call' do

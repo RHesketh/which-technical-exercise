@@ -1,4 +1,4 @@
-require './lib/orientation.rb'
+require './lib/orientation'
 
 RSpec.describe Orientation, type: :model do
   describe '#facing' do

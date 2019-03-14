@@ -1,4 +1,4 @@
-require './lib/suspect.rb'
+require './lib/suspect'
 
 RSpec.describe Suspect, type: :model do
   it 'begins by facing North' do

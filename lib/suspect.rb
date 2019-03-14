@@ -1,5 +1,5 @@
-require './lib/orientation.rb'
-require './lib/grid_location.rb'
+require './lib/orientation'
+require './lib/grid_location'
 
 # Represents the movement and orientation of a suspect on a grid
 class Suspect

@@ -1,4 +1,4 @@
-require './lib/directions_client.rb'
+require './lib/directions_client'
 
 require 'json'
 

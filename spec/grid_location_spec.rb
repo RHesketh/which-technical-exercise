@@ -1,4 +1,4 @@
-require './lib/grid_location.rb'
+require './lib/grid_location'
 
 RSpec.describe GridLocation, type: :model do
   describe '#x' do

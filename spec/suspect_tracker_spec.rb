@@ -1,4 +1,4 @@
-require './lib/suspect_tracker.rb'
+require './lib/suspect_tracker'
 
 RSpec.describe SuspectTracker, type: :model do
   describe '#call' do
