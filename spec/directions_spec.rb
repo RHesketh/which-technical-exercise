@@ -1,5 +1,7 @@
 require './lib/directions.rb'
 
+require 'json'
+
 RSpec.describe Directions, type: :model do
   describe '#get' do
     it 'Makes a call to a remote service to retrieve the direction information' do

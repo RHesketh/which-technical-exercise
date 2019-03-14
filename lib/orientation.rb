@@ -1,5 +1,3 @@
-require 'http'
-
 # Represents the cardinal direction in which something is currently facing
 class Orientation
   attr_accessor :facing

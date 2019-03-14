@@ -1,4 +1,5 @@
-require 'http'
+require './lib/orientation.rb'
+require './lib/grid_location.rb'
 
 # Represents the movement and orientation of a suspect on a grid
 class Suspect

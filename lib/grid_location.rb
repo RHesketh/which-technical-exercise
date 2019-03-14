@@ -1,5 +1,3 @@
-require 'http'
-
 # Represents a location on a grid square
 class GridLocation
   attr_accessor :x, :y
