@@ -8,11 +8,11 @@ class GridLocation
   end
 
   def move_north
-    @y -= 1
+    @y += 1
   end
 
   def move_south
-    @y += 1
+    @y -= 1
   end
 
   def move_east
