@@ -1,0 +1,22 @@
+AllCops:
+  TargetRubyVersion: 2.6.2
+
+FrozenStringLiteralComment:
+  Enabled: false
+
+# Allow trailing commas because they can make Git diffs look neater
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 140
+
+Metrics/BlockLength:
+  Enabled: true
+  ExcludedMethods: ['describe', 'context', 'it', 'before']
