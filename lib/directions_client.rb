@@ -1,7 +1,7 @@
 require 'http'
 
 # Contacts a remote service to retrieve direction information
-class Directions
+class DirectionsClient
   HOST = 'http://which-technical-exercise.herokuapp.com/api'.freeze
   ENDPOINT = 'directions'.freeze
 

@@ -1,8 +1,8 @@
-require './lib/directions.rb'
+require './lib/directions_client.rb'
 
 require 'json'
 
-RSpec.describe Directions, type: :model do
+RSpec.describe DirectionsClient, type: :model do
   describe '#get' do
     it 'Makes a call to a remote service to retrieve the direction information' do
       response_body = { 'directions' => %w[up down] }.to_json
@@ -20,7 +20,7 @@ RSpec.describe Directions, type: :model do
         http_client = class_double(HTTP, get: response)
         subject = described_class.new(http_client: http_client)
 
-        expect { subject.get }.to raise_error(Directions::NoDirectionsError)
+        expect { subject.get }.to raise_error(DirectionsClient::NoDirectionsError)
       end
     end
   end
