@@ -18,7 +18,7 @@ RSpec.describe GridLocation, type: :model do
       subject.move_north
 
       expect(subject.x).to eq 0
-      expect(subject.y).to eq(1)
+      expect(subject.y).to eq 1
     end
   end
 
@@ -27,7 +27,7 @@ RSpec.describe GridLocation, type: :model do
       subject.move_south
 
       expect(subject.x).to eq 0
-      expect(subject.y).to eq -1
+      expect(subject.y).to eq(-1)
     end
   end
 
